@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+*.env
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+local_settings.py
+media/
+staticfiles/
+static_root/
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Pytest
+.cache/
+
+# Mac and Linux system files
+*.swp
+*.swo
+
+# Env files
+.env
+.env.*
+
+# Migrations (optional: if you don't want to track migration history initially)
+# Uncomment if needed
+# */migrations/
+# !*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
